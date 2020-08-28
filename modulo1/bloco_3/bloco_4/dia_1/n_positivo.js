@@ -1,4 +1,4 @@
-let valor = 1;
+le
 
 if( valor < 0)
 {
