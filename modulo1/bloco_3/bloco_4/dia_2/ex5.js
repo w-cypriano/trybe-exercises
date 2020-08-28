@@ -1,0 +1,19 @@
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let nMaior=0;
+
+for(let i =0; i < numbers.length; i++){
+
+    if(nMaior < numbers[i]){
+
+        nMaior= numbers[i];
+
+        }
+        
+    
+    
+    
+}
+
+console.log(" O maior número é: " + nMaior)
+
+
