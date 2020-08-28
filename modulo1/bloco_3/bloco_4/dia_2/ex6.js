@@ -13,10 +13,15 @@ for(let i =0; i < numbers.length; i++){
 
         }
 }
+if( arrayImp.length === 0){
 
-for(let i=0; i < arrayImp.length; i++){
-    
-   console.log(arrayImp[i]);
+    console.log("Nenhum valor impar foi encontrado")
 }
+else{
 
+    for(let i=0; i < arrayImp.length; i++){
+        
+    console.log(arrayImp[i]);
+    }
 
+}
