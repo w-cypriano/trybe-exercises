@@ -8,7 +8,7 @@ for(let i=0; i < numbers.length; i++){
 
             if(nMenor > numbers[i])
         {
-            nMenor= numbers[i];
+            nMenor= numbers[i];gi
 
         }
        
