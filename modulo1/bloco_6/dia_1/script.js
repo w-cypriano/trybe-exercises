@@ -7,9 +7,12 @@ for(let i=0; i< tEstados.length;i +=1){
 
     lEst=document.createElement("option");
     lEst.value= tEstados[i];
-    document.getElementById("estado").appendChild(lEst); // chama a id "estado" e passa os "option"
     
-    
-
-
+    document.getElementById("estado").appendChild(lEst); // chama a id "estado" e passa os "option" como filha. 
+ 
 }
+
+let req0b = document.getElementById("estado")
+req0b.required = true;
+req0b.style="width:50px;"
+
