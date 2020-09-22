@@ -1,0 +1,17 @@
+.torre-grupo-1 {
+    display: flex;
+    justify-content:center;
+    }
+
+    .torre-grupo-1 {
+        display: flex;
+        justify-content:flex-end;
+        }
+        . torre-grupo-2 {
+        display: flex;
+        justify-content:center;
+        }
+        . torre-grupo-3 {
+        display: flex;
+        justify-content:flex-end;
+        }
