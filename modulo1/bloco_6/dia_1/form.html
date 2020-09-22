@@ -9,6 +9,7 @@
     <form action="" method="">
         <fieldset>
           <legend>forms</legend>
+
           <label for="nome">Nome:</label>
           <input type="text" id="nome" maxlength="40" required> <br><br>
                     
@@ -24,22 +25,49 @@
          <label for="cidade">Cidade:</label>
           <input type="text" id="cidade" maxlength="28" required> <br> <br>
           
-          <label for="estado">Estado</label>
+          <label for="estado"> Estado</label>
 
-          <select   id= "estado">
+          <select  id="estado">
              
            </select><br><br>
 
           <label for="residencia">Tipo de residencia:</label> <br>
                    
-          <input type="radio" id="residencia" name="tipores" value ="casa" > 
-          <label for="male">Casa</label> <br>
+          <input type="radio" id="casa" name="tipores" value ="casa" > 
+          <label for="casa"> Casa </label> <br>
          
-          <input type="radio" id="residencia" name="tipores" value ="apto" > 
-          <label for="male">Apto</label><br>
-        </fieldset>
-      </form>
+          <input type="radio" id="apto" name="tipores" value ="apto" > 
+          <label for="apto">Apto </label><br>
+          
 
+      <form action=""></form>
+        </fieldset> 
+            <legend> Detalhes do ultimo emprego </legend> <br>
+              <textarea name="message" rows="10" cols="40" maxlenght ="1000"required >resumo do curriculo.</textarea>
+              <br><br>
+
+              <label for="end">Cargo:</label>
+              <input type="text" id="cargo" maxlength="40" required> <br> <br>
+              
+              <label for="end">Descrição do cargo:</label>
+              <input type="text" id="Dcargo" maxlength="500" required> <br> <br>
+
+              <label for="end"> Data:</label>
+              <input type="text" id="dia" placeholder="DD" maxlength="2" size="1"required> 
+              <input type="text" id="mes" placeholder= "MM" maxlength="2" size="1" required> 
+              <input type="text" id="ano" placeholder= "AAAA" maxlength="4" size="4" required> <br> <br>
+
+
+              
+           
+            </form>
+
+          </fieldset>
+      </form>
+    </form>
+
+    
+    <input type="button" value="Enviar" onclick="validData ()"> 
     <script src="script.js"></script>
     
 </body>
